@@ -10,6 +10,7 @@ Requirements:
 - matplotlib
 - tensorflow (>=2.0)
 - pickle 
+- tikzplotlib
 
 The scripts that produce the results from the paper are:
 - simplegene_tt_convergence.py for the time convergence of the seir model.

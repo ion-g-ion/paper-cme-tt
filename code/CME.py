@@ -10,7 +10,7 @@ import scipy.sparse as sps
 import timeit
 #import tensorflow as tf
 import numba
-from tt_extra import mat_to_tt
+#from tt_extra import mat_to_tt
 import matplotlib.pyplot as plt 
 import tt
 
