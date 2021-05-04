@@ -131,7 +131,7 @@ Prior4 = GammaPDF(alpha_prior[3], beta_prior[3], basis[3], param_range[3][0], pa
 Priors = [Prior1 , Prior2 , Prior3 , Prior4 ]
 Prior = Prior1 ** Prior2 ** Prior3 ** Prior4 
 Puniform = UniformPDF(basis, param_range)
-Prior = UniformPDF(basis, param_range)
+# Prior = UniformPDF(basis, param_range)
 
 print('Initial E ',Prior.expected_value())
 print('Initial C ',Prior.covariance_matrix())
