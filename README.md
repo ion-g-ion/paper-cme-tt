@@ -1,6 +1,7 @@
 # paper-cme-tt
 This is the repository for the code of the paper "Tensor-train approximation of the chemical master equation and its application for parameter inference"
 
+**See [here](https://github.com/ion-g-ion/tt-cme) for an upgraded version**
 
 Requirements:
 - numpy (>=1.18.1)
